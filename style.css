@@ -1,5 +1,42 @@
 body {
+  background-color: rgb(241, 235, 235);
+  color: rgb(10, 0, 0);
   width: 100%;
   height: 100%;
   margin: 0;
+ }
+h1 {
+  text-align: center;
+}
+nav{
+  text-align: center;
+}
+img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+nav>a{
+  padding: 10px 10px;
+  background: gray;
+}
+#fig-caption{
+  font-size: 12px;
+  text-align: center;
+}
+#featured-property{
+  width: 800px;
+ margin-left: auto;
+ margin-right: auto;
+}
+#details{
+  margin-top: 20px;
+}
+#details> div{
+  float: left;
+  background-color: rgb(255, 102, 0);
+  width: auto
+  display: inline-block;
+ position: relative;
+ vertical-align: auto;
 }
